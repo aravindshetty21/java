@@ -102,6 +102,24 @@ public class StringsImpl {
         if (!foundIt)
             System.out.println("No match found.");
 
+        print("\n example7: =================================================\n");
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("Greetings");
+        print(sb);
+        sb.setLength(5);
+        print(sb);
+        sb.insert(3, "hello");
+        print(sb);
+        sb.deleteCharAt(3);
+        print(sb);
+        sb.delete(3, 7);
+        print(sb);
+        sb.setCharAt(3, 'h');
+        print(sb);
+        sb.replace(3, 5, "eh");
+        print(sb);
+        print(sb.reverse());
     }
 
     public static void print(Object x) {

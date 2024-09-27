@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MyClass",
+      "request": "launch",
+      "mainClass": "practice.MyClass",
+      "projectName": "practice_8cfc96e4"
+    },
+    {
+      "type": "java",
       "name": "NumbersImpl",
       "request": "launch",
       "mainClass": "NumbersImpl",
